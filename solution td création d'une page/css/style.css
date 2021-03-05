@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*bloc HERO LIGHT*/
+/*le bloc*/
+header {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  text-align: center;
+  padding-top: 10%;
+  background-color: #B3B3B3;
+  height: 230px;
+}
+/*le titre*/
+.hero_header {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+/*le texte Light*/
+.light {
+  font-weight: bold;
+  color: #717070;
+}
+/*le texte tout le titre*/
+.tagline {
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 4px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/*les trois blocs*/
+.blocs {
+  padding: 35px 0 35px 25px;
+	/*valeurs enchainées dans le sens de l'aiguille d'une montre, 35px en haut, 0 à droite, 35px en bas, 25px  à gauche. Gain de lignes de code. S'applique aussi à margin*/
+  display: inline-block;
+  background-color: #2D9AB7;
+  margin-top: 0px;
+}
+/*le texte des trois blocs*/
+.text_column {
+  width: 29%;
+  text-align: justify;
+  font-weight: lighter;
+  line-height: 25px;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #EFEEEE;
+}
+/*le bloc2 contenant avec les 4 sous blocs*/
+.menusblocs {
+  background-color: #EFEFEF;
+  width: 100%;
+  clear: both;
+  display: inline-block;
+}
+/*le contenu de chaque sous blocs2*/
+.menusblocs div {
+  float: left;
+  width: 25%;
+  color: #717070;
+  margin: 35px 0 35px 0; 
+  text-align: center;
+	box-shadow: 0 1px 3px -1px gray; 
+	/*Explication des valeurs de l'ombre dans l'ordre: 
+	-h-Offset : ombre horizomtale avec decalage gauche (valeur negative) ou droite (valeur positive)
+	-v-Offset : ombre verticale avec decalages haut et bas selon la valeur positive négative
+	-blur : taille et douceur de l'ombre
+	-spread-radius : propagation / epaisseur de l'ombre
+	-couleur
+	*/
+
+}
+/*particularité du titre des sous blocs2*/
+.menusblocs div h4 {
+  color: #52BAD5;
+  margin: 5px;
+}
+/*grande section avant le footer*/
+.footer1 {
+  background-color: #2D9AB7;
+  height: 400px;
+}
+/*titre de la grande section avant le footer*/
+.parallax {
+  color: #FFFFFF;
+  text-align: right;
+  padding-right: 100px;
+  padding-top: 110px;
+  letter-spacing: 2px;
+  margin-top: 0px;
+}
+/*texte descriptif de la section avant le footer*/
+.parallax_description {
+  color: #FFFFFF;
+  text-align: right;
+  padding-right: 100px;
+  width: 30%;
+  float: right;
+  font-weight: lighter;
+  line-height: 23px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+/*le footer*/
+footer {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  background-color: #717070;
+  color: #FFFFFF;
+  text-transform: uppercase; /*mise en capitales*/
+  font-weight: lighter; /*texte plus fin*/
+  letter-spacing: 2px; /*espacement entre caractères*/
+
+}
